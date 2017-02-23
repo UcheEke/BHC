@@ -3,20 +3,19 @@
  */
 import React from 'react';
 
-
 const Landing = ({ sgreet }) => {
     return (
-        <div>
-            <h1 id="main-title">Welcome to Barnes Healing Church</h1>
+        <section>
+            <h1 className="main-title text-center">Welcome to Barnes Healing Church</h1>
             <div className="images">
-            <img src={require('../images/Churchnoticeboard.jpg')} alt="Barnes Healing Church Notice Board" className="img-rounded"/>
+                <img src={require('../images/Churchnoticeboard.jpg')} alt="Barnes Healing Church Notice Board" />
             </div>
-            <div id="special_greetings">
-                <p>
-                    <em>{ sgreet }</em>
+            <div>
+                <p className="special_greetings text-center">
+                    <em>"{ sgreet }"</em>
                 </p>
             </div>
-        </div>
+        </section>
     );
 };
 

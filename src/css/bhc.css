@@ -1,0 +1,73 @@
+body {
+    font-family: 'Forum', serif;
+    margin: 30px auto;
+    width: 70%;
+    padding-top: 40px;
+    font-size: 20px;
+    background: repeat url("../images/background.jpg");
+}
+
+.address {
+    padding: 20px 0;
+}
+
+
+#special_greetings {
+    text-align: center;
+    font-size: large;
+}
+
+#main-title {
+    font-size: 260%;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 180%;
+    margin-top: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+section h4 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.upcoming, .services-table {
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.upcoming p {
+    font-size: 90%;
+}
+
+.upcoming h3 {
+    font-size: 130%;
+    margin-bottom: 20px;
+}
+
+.services-table h4 {
+    font-size: 130%;
+}
+
+section, .section {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 80%;
+    line-height: 40%;
+    margin-bottom: 50px;
+}
+
+.socmed {
+    text-align: center;
+}
